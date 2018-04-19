@@ -1,0 +1,18 @@
+"repositories": [
+{
+  "type": "package",
+  "package": {
+    "name": "Redbox-Digital-Test",
+    "version": "dev-master",
+    "source": {
+      "url": "git://github.com/edza345/Redbox-Digital-Test",
+      "type": "git",
+      "reference": "master"
+    },
+    "autoload": {
+      "psr-0" : {
+        "Redbox-Digital-Test" : "src"
+      }
+    }
+  }
+}
