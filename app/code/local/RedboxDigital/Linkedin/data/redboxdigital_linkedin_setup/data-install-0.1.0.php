@@ -19,7 +19,7 @@ $setup = new Mage_Eav_Model_Entity_Setup('core_setup');
 $entityTypeId     = $setup->getEntityTypeId('customer');
 $attributeSetId   = $setup->getDefaultAttributeSetId($entityTypeId);
 $attributeGroupId = $setup->getDefaultAttributeGroupId($entityTypeId, $attributeSetId);
-$quote_table_name = $installer->getTable('sales/quote');
+$quoteTableName = $installer->getTable('sales/quote');
 
 $setup->addAttribute("customer", "linkedin_profile",  array(
     'type'     => 'varchar',
